@@ -140,16 +140,16 @@ Capturas de tela da execução local em **2026-05-13**, terminal PowerShell.
 Os arquivos originais estão em `tdd-exercicios/docs/evidencias/`.
 
 ### Exercício 1 — Python + pytest (`28 passed`)
-![Ex1 — pytest início](tdd-exercicios/docs/evidencias/ex1-pytest-1.png)
-![Ex1 — pytest final / 28 passed](tdd-exercicios/docs/evidencias/ex1-pytest-2.png)
+![Ex1 — pytest -v: 28 testes passando](tdd-exercicios/docs/evidencias/ex1-pytest-1.png)
+![Ex1 — pytest-cov: cobertura 96% (src/triangulo.py) + relatório HTML em htmlcov/](tdd-exercicios/docs/evidencias/ex1-pytest-2.png)
 
 ### Exercício 2 — Java + Maven + JUnit 5 (`Tests run: 40, BUILD SUCCESS`)
-![Ex2 — mvn clean test início](tdd-exercicios/docs/evidencias/ex2-mvn-1.png)
-![Ex2 — mvn clean test resultado](tdd-exercicios/docs/evidencias/ex2-mvn-2.png)
+![Ex2 — mvn clean test: build com jacoco:prepare-agent](tdd-exercicios/docs/evidencias/ex2-mvn-1.png)
+![Ex2 — 40 testes passando + jacoco:report gerado (target/site/jacoco/index.html) — BUILD SUCCESS](tdd-exercicios/docs/evidencias/ex2-mvn-2.png)
 
 ### Exercício 3 — TypeScript + Jest (`21 passed`)
-![Ex3 — npx jest início](tdd-exercicios/docs/evidencias/ex3-jest-1.png)
-![Ex3 — npx jest final / 21 passed](tdd-exercicios/docs/evidencias/ex3-jest-2.png)
+![Ex3 — npx jest --verbose: 21 testes passando](tdd-exercicios/docs/evidencias/ex3-jest-1.png)
+![Ex3 — npm run test:coverage: 100% Stmts/Branch/Funcs/Lines em CalculadoraSalario.ts, Cargo.ts e Funcionario.ts](tdd-exercicios/docs/evidencias/ex3-jest-2.png)
 
 ---
 
