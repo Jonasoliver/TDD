@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.venv/
+venv/
+.venv*/
+venv*/
+env/
+.env
+
+# Java
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+
+# Node / TypeScript
+node_modules/
+dist/
+build/
+coverage/
+*.log
+*.tsbuildinfo
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
